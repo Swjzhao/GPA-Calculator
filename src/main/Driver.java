@@ -8,8 +8,8 @@ public class Driver {
 
 	private String dbUrl = "jdbc:mysql://localhost:3306/gradecalc";
 	
-	private String user = "root";
-	private String password = "W@yl786543";
+	private String user = ""; //removed for safety
+	private String password = ""; //removed for safety
 	private String name;
 	public Connection myConn = null;
 	public Statement myStmt = null;
